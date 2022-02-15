@@ -13,6 +13,7 @@ namespace Hello_world
             Console.Write("Dit programma leest en print elementen van een array \n");
             Console.Write("______________________________________________________\n\n");
             Console.Write("Hoeveel merken wil je ingeven? ");
+            Console.Write("-----------------------------------------");
 
             aantal=Convert.ToInt32(Console.ReadLine());
 
@@ -39,7 +40,11 @@ namespace Hello_world
                 Console.WriteLine(cars[i]);
                
             }
-
+            //Dit is commentaar voor Github medewerkers
+            //Dit is commentaar voor Github medewerkers
+            //Dit is commentaar voor Github medewerkers
+            //Dit is commentaar voor Github medewerkers
+            //Dit is commentaar voor Github medewerkers
             Console.WriteLine("\ndan nu de som: ");
             for (i = 0; i < aantal; i++)
             {
